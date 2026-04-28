@@ -38,6 +38,8 @@ public class StreamOutputController {
 
     @GetMapping("/streamOutput/deepseekClient")
     public Flux<String> streamOutputDeepseekClient(@RequestParam(name = "msg", defaultValue = "你是谁") String msg) {
+
+
         return deepseekClient.prompt(msg).user( "user").stream().content();
     }
 }

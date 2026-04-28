@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6455281c-b788-4185-b787-98ef3f5f821f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/Controller/StreamOutputController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../笔记/ChatClient.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/ChatClient.md" afterDir="false" />
-    </list>
+    <list default="true" id="6455281c-b788-4185-b787-98ef3f5f821f" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +179,7 @@
       <workItem from="1777086187586" duration="1199000" />
       <workItem from="1777088324235" duration="988000" />
       <workItem from="1777089408522" duration="3096000" />
-      <workItem from="1777273541134" duration="13634000" />
+      <workItem from="1777273541134" duration="14246000" />
     </task>
     <servers />
   </component>
