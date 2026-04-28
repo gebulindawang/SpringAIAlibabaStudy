@@ -1,0 +1,17 @@
+server:
+  port: 8083
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+spring:
+  application:
+    name: "SAA04-StreamingOutput"
+  ai:
+    dashscope:
+      api-key: ${SpringAIAlibabaStudyApiKey}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      chat:
+        options:
+          model: deepseek-v4-flash

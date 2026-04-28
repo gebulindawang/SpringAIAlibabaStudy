@@ -11,6 +11,7 @@
     <modules>
         <module>SAA-01HelloWorld</module>
         <module>SAA03-ChatModelChatClient</module>
+        <module>SSA04-StreamingOutput</module>
     </modules>
 
     <properties>

@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6455281c-b788-4185-b787-98ef3f5f821f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA03-ChatModelChatClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA03-ChatModelChatClient/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA03-ChatModelChatClient/src/main/java/com/intek/Controller/ChatClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA03-ChatModelChatClient/src/main/java/com/intek/Controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA03-ChatModelChatClient/src/main/java/com/intek/SAA03ChatModelChatClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA03-ChatModelChatClient/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/Controller/StreamOutputController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/src/main/java/com/intek/config/SaaLLMConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-01HelloWorld/src/main/java/com/intek/config/SaaLLMConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-01HelloWorld/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/config/SaaLLMConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/config/SaaLLMConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../笔记/HelloWorld.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/HelloWorld.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔记/ChatClient.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/ChatClient.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,15 +76,17 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SAA01HelloWorld.executor": "Run",
-    "Spring Boot.SAA03ChatModelChatClientApplication.executor": "Debug",
+    "Spring Boot.SAA03ChatModelChatClientApplication.executor": "Run",
+    "Spring Boot.SAA04StreamingOutput.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/code/SpringAI学习/Code/Spring_AI_Alibaba/SAA03-ChatModelChatClient/src/main/java/com/intek/Main.java",
+    "onboarding.tips.debug.path": "D:/code/SpringAI学习/Code/Spring_AI_Alibaba/SSA04-StreamingOutput/src/main/java/com/intek/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -104,6 +100,14 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="configurationStatuses">
       <map>
         <entry key="HttpClient.HttpRequestRunConfigurationType">
@@ -114,10 +118,17 @@
             </map>
           </value>
         </entry>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="SAA04StreamingOutput" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SAA03ChatModelChatClientApplication">
+  <component name="RunManager" selected="Spring Boot.SAA04StreamingOutput">
     <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#11" index="11" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -144,6 +155,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SAA04StreamingOutput" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SSA04-StreamingOutput" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.intek.SAA04StreamingOutputApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP 请求.generated-requests | #9" />
+      <item itemvalue="HTTP 请求.generated-requests | #11" />
+      <item itemvalue="Spring Boot.SAA04StreamingOutput" />
+      <item itemvalue="Spring Boot.SAA01HelloWorld" />
+      <item itemvalue="Spring Boot.SAA03ChatModelChatClientApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SAA03ChatModelChatClientApplication" />
@@ -165,7 +190,7 @@
       <workItem from="1777086187586" duration="1199000" />
       <workItem from="1777088324235" duration="988000" />
       <workItem from="1777089408522" duration="3096000" />
-      <workItem from="1777273541134" duration="5298000" />
+      <workItem from="1777273541134" duration="13634000" />
     </task>
     <servers />
   </component>
@@ -179,6 +204,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/intek/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/SAA04StreamingOutputApplication.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
