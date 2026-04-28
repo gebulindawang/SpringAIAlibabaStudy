@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
   servlet:
     encoding:
       charset: utf-8
@@ -7,7 +7,7 @@ server:
       enabled: true
 spring:
   application:
-    name: "SAA01-HelloWorld"
+    name: "SAA03-ChatModelChatClient"
   ai:
     dashscope:
       api-key: ${SpringAIAlibabaStudyApiKey}

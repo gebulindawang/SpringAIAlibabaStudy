@@ -1,0 +1,27 @@
+GET http://localhost:8081/chatClient/doChat?msg=IGLeLSfo
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-04-28T185755.200.txt
+
+###
+
+GET http://localhost:8080/hellow/doChat?msg={你猜猜我是谁}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-04-25T114211.200.txt
+
+###
+
+GET http://localhost:8080/hellow/doChat?msg={你是谁啊}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-04-25T114201.200.txt
+
+###
+
