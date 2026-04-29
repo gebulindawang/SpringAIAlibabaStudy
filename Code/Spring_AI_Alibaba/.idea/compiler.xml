@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SAA03-ChatModelChatClient" />
         <module name="SSA04-StreamingOutput" />
+        <module name="SAA-05Prompt" />
+        <module name="SAA03-ChatModelChatClient" />
         <module name="SAA-01" />
       </profile>
     </annotationProcessing>

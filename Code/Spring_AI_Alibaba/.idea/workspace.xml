@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6455281c-b788-4185-b787-98ef3f5f821f" name="更改" comment="" />
+    <list default="true" id="6455281c-b788-4185-b787-98ef3f5f821f" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/SAA-05Prompt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-05Prompt/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-05Prompt/src/main/java/com/intek/Controller/PromptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-05Prompt/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/Controller/ChatHelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/Controller/ChatHelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/Controller/StreamOutputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/Controller/StreamOutputController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔记/ChatClient.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/ChatClient.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,16 +79,17 @@
     "Spring Boot.SAA01HelloWorld.executor": "Run",
     "Spring Boot.SAA03ChatModelChatClientApplication.executor": "Run",
     "Spring Boot.SAA04StreamingOutput.executor": "Run",
+    "Spring Boot.SAA05PromptApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/code/SpringAI学习/Code/Spring_AI_Alibaba/SSA04-StreamingOutput/src/main/java/com/intek/Main.java",
+    "onboarding.tips.debug.path": "D:/code/SpringAI学习/Code/Spring_AI_Alibaba/SAA-05Prompt/src/main/java/com/intek/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,13 +124,14 @@
           <value>
             <map>
               <entry key="SAA04StreamingOutput" value="STOPPED" />
+              <entry key="SAA05PromptApplication" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SAA04StreamingOutput">
+  <component name="RunManager" selected="Spring Boot.SAA05PromptApplication">
     <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#11" index="11" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -151,18 +165,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SAA05PromptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SAA-05Prompt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.intek.SAA05PromptApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="HTTP 请求.generated-requests | #9" />
       <item itemvalue="HTTP 请求.generated-requests | #11" />
       <item itemvalue="Spring Boot.SAA04StreamingOutput" />
       <item itemvalue="Spring Boot.SAA01HelloWorld" />
+      <item itemvalue="Spring Boot.SAA05PromptApplication" />
       <item itemvalue="Spring Boot.SAA03ChatModelChatClientApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SAA05PromptApplication" />
         <item itemvalue="Spring Boot.SAA03ChatModelChatClientApplication" />
-        <item itemvalue="HTTP 请求.generated-requests | #11" />
         <item itemvalue="HTTP 请求.generated-requests | #9" />
+        <item itemvalue="HTTP 请求.generated-requests | #11" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +209,7 @@
       <workItem from="1777088324235" duration="988000" />
       <workItem from="1777089408522" duration="3096000" />
       <workItem from="1777273541134" duration="14246000" />
+      <workItem from="1777428371107" duration="3522000" />
     </task>
     <servers />
   </component>
@@ -198,6 +228,11 @@
           <url>file://$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/SAA04StreamingOutputApplication.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SAA-05Prompt/src/main/java/com/intek/SAA05PromptApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

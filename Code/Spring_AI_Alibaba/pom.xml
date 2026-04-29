@@ -12,6 +12,7 @@
         <module>SAA-01HelloWorld</module>
         <module>SAA03-ChatModelChatClient</module>
         <module>SSA04-StreamingOutput</module>
+        <module>SAA-05Prompt</module>
     </modules>
 
     <properties>
