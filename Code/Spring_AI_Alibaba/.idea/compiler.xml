@@ -9,6 +9,8 @@
         <module name="SSA04-StreamingOutput" />
         <module name="SAA-05Prompt" />
         <module name="SAA03-ChatModelChatClient" />
+        <module name="SAA-06PromptTemplate" />
+        <module name="SAA-08Persistent" />
         <module name="SAA-01" />
       </profile>
     </annotationProcessing>

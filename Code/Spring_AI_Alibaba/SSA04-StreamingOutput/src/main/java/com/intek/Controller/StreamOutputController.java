@@ -16,10 +16,8 @@ public class StreamOutputController {
     private static final Logger log = LoggerFactory.getLogger(StreamOutputController.class);
     @Resource(name = "deepseekChatModel")
     private ChatModel deepseek;
-
     @Resource(name = "qwenChatModel")
     private ChatModel qwen;
-
     @Resource(name = "deepseekChatClient")
     private ChatClient deepseekClient;
     @Resource(name = "qwenChatClient")

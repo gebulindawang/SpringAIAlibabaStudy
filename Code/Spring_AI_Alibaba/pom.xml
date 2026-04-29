@@ -13,6 +13,8 @@
         <module>SAA03-ChatModelChatClient</module>
         <module>SSA04-StreamingOutput</module>
         <module>SAA-05Prompt</module>
+        <module>SAA-06PromptTemplate</module>
+        <module>SAA-08Persistent</module>
     </modules>
 
     <properties>

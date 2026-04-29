@@ -1,3 +1,12 @@
+GET http://localhost:8083/chat/promptTemplate?question=L6SuOhzC
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-04-29T114406.200.txt
+
+###
+
 GET http://localhost:8081/chatClient/doChat?msg=IGLeLSfo
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
 Accept-Encoding: br, deflate, gzip, x-gzip

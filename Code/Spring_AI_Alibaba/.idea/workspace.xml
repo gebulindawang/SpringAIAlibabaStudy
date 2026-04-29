@@ -5,17 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6455281c-b788-4185-b787-98ef3f5f821f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/SAA-05Prompt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-05Prompt/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-05Prompt/src/main/java/com/intek/Controller/PromptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-05Prompt/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-06PromptTemplate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-06PromptTemplate/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-06PromptTemplate/src/main/java/com/intek/Controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-06PromptTemplate/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Config/RedisMemoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/Controller/ChatHelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/Controller/ChatHelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/Controller/StreamOutputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/Controller/StreamOutputController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/Controller/ChatHelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/SAA01HelloWorldApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/config/SaaLLMConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-05Prompt/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-05Prompt/target/classes/com/intek/Config/SaaLLMConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-05Prompt/target/classes/com/intek/Controller/PromptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-05Prompt/target/classes/com/intek/SAA05PromptApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/com/intek/Config/SaaLLMConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/com/intek/Controller/ChatClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/com/intek/Controller/ChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/com/intek/SAA03ChatModelChatClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/Controller/StreamOutputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/Controller/StreamOutputController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/Config/SaaLLMConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/Controller/StreamOutputController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/SAA04StreamingOutputApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/static/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../笔记/ChatClient.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/ChatClient.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +88,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "HTTP 请求.generated-requests | #11.executor": "Run",
+    "HTTP 请求.generated-requests | #15.executor": "Run",
     "HTTP 请求.generated-requests | #9.executor": "Run",
     "Maven.Spring_AI_Alibaba [clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -80,23 +105,30 @@
     "Spring Boot.SAA03ChatModelChatClientApplication.executor": "Run",
     "Spring Boot.SAA04StreamingOutput.executor": "Run",
     "Spring Boot.SAA05PromptApplication.executor": "Run",
+    "Spring Boot.SAA06PromptTemplateApplication.executor": "Run",
+    "Spring Boot.SAA08PersistentApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/code/SpringAI学习/Code/Spring_AI_Alibaba/SAA-06PromptTemplate/src/main/java/com/intek",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/code/SpringAI学习/Code/Spring_AI_Alibaba/SAA-05Prompt/src/main/java/com/intek/Main.java",
-    "project.structure.last.edited": "模块",
+    "onboarding.tips.debug.path": "D:/code/SpringAI学习/Code/Spring_AI_Alibaba/SAA-08Persistent/src/main/java/com/intek/Main.java",
+    "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.SAA08PersistentApplication.executor": "Run"
   }
 }]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\SpringAI学习\Code\Spring_AI_Alibaba\SAA-06PromptTemplate\src\main\java\com\intek" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.intek.Config" />
     </key>
@@ -115,45 +147,44 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="generated-requests | #11" value="STOPPED" />
-              <entry key="generated-requests | #9" value="STOPPED" />
+              <entry key="generated-requests | #15" value="STOPPED" />
             </map>
           </value>
         </entry>
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
+              <entry key="SAA01HelloWorld" value="STOPPED" />
               <entry key="SAA04StreamingOutput" value="STOPPED" />
               <entry key="SAA05PromptApplication" value="STOPPED" />
+              <entry key="SAA06PromptTemplateApplication" value="STOPPED" />
+              <entry key="SAA08PersistentApplication" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SAA05PromptApplication">
-    <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#11" index="11" runType="运行单个请求">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#9" index="9" runType="运行单个请求">
-      <method v="2" />
-    </configuration>
-    <configuration name="SAA01HelloWorld" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SAA-01" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.intek.SAA01HelloWorldApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SAA03ChatModelChatClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SAA03-ChatModelChatClient" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.intek.SAA03ChatModelChatClientApplication" />
+  <component name="RunManager" selected="Spring Boot.SAA08PersistentApplication">
+    <configuration name="SAA08PersistentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intek.SAA08PersistentApplication" />
+      <module name="SAA-08Persistent" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.intek.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#15" index="15" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="SAA01HelloWorld" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SAA-01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.intek.SAA01HelloWorldApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,20 +209,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SAA06PromptTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SAA-06PromptTemplate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.intek.SAA06PromptTemplateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SAA08PersistentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SAA-08Persistent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.intek.SAA08PersistentApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="HTTP 请求.generated-requests | #9" />
-      <item itemvalue="HTTP 请求.generated-requests | #11" />
+      <item itemvalue="HTTP 请求.generated-requests | #15" />
       <item itemvalue="Spring Boot.SAA04StreamingOutput" />
       <item itemvalue="Spring Boot.SAA01HelloWorld" />
+      <item itemvalue="Spring Boot.SAA06PromptTemplateApplication" />
+      <item itemvalue="Spring Boot.SAA08PersistentApplication" />
       <item itemvalue="Spring Boot.SAA05PromptApplication" />
-      <item itemvalue="Spring Boot.SAA03ChatModelChatClientApplication" />
+      <item itemvalue="应用程序.SAA08PersistentApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SAA08PersistentApplication" />
+        <item itemvalue="应用程序.SAA08PersistentApplication" />
+        <item itemvalue="Spring Boot.SAA06PromptTemplateApplication" />
+        <item itemvalue="HTTP 请求.generated-requests | #15" />
         <item itemvalue="Spring Boot.SAA05PromptApplication" />
-        <item itemvalue="Spring Boot.SAA03ChatModelChatClientApplication" />
-        <item itemvalue="HTTP 请求.generated-requests | #9" />
-        <item itemvalue="HTTP 请求.generated-requests | #11" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +268,8 @@
       <workItem from="1777088324235" duration="988000" />
       <workItem from="1777089408522" duration="3096000" />
       <workItem from="1777273541134" duration="14246000" />
-      <workItem from="1777428371107" duration="3522000" />
+      <workItem from="1777428371107" duration="3771000" />
+      <workItem from="1777432614412" duration="5277000" />
     </task>
     <servers />
   </component>
@@ -233,6 +293,11 @@
           <url>file://$PROJECT_DIR$/SAA-05Prompt/src/main/java/com/intek/SAA05PromptApplication.java</url>
           <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SAA-06PromptTemplate/src/main/java/com/intek/SAA06PromptTemplateApplication.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

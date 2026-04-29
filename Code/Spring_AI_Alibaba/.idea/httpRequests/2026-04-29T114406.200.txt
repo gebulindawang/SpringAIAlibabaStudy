@@ -1,0 +1,170 @@
+以下是您所需的游戏故事HTML页面代码。它讲述了一个名为“星语者”的冒险者在数据之海寻找世界核心代码的简短故事，并包含了一个简单的视觉风格。
+```html
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星语者 · 游戏故事</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(145deg, #0b0e1a 0%, #1a1f2f 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', 'Roboto', system-ui, sans-serif;
+            padding: 1.5rem;
+        }
+        .story-card {
+            max-width: 700px;
+            width: 100%;
+            background: rgba(22, 28, 46, 0.75);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(170, 200, 255, 0.15);
+            border-radius: 3rem 1rem 3rem 1rem;
+            padding: 2.5rem 2.8rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(210, 180, 255, 0.05) inset;
+            transition: all 0.3s ease;
+        }
+        .story-card:hover {
+            border-color: rgba(170, 200, 255, 0.35);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8), 0 0 0 2px rgba(170, 180, 255, 0.1) inset;
+        }
+        .game-icon {
+            display: flex;
+            justify-content: center;
+            gap: 0.6rem;
+            margin-bottom: 1.8rem;
+            font-size: 2.2rem;
+            letter-spacing: 6px;
+            color: #b7c9ff;
+            text-shadow: 0 0 10px #7f9eff;
+        }
+        .game-icon span {
+            opacity: 0.75;
+            transition: 0.2s;
+        }
+        .game-icon span:hover {
+            opacity: 1;
+            filter: drop-shadow(0 0 6px #9bb3ff);
+        }
+        .story-title {
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            color: #dbe6ff;
+            text-shadow: 0 2px 5px #0a0e1a;
+            border-bottom: 2px solid rgba(180, 200, 255, 0.2);
+            padding-bottom: 0.6rem;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .story-title small {
+            font-size: 0.9rem;
+            font-weight: 300;
+            opacity: 0.6;
+            margin-left: auto;
+        }
+        .story-content {
+            color: #e0eaff;
+            font-size: 1.2rem;
+            line-height: 1.7;
+            text-shadow: 0 1px 2px #00000030;
+            position: relative;
+            padding-left: 0.3rem;
+            border-left: 2px solid #6078b0;
+            padding-left: 1.2rem;
+        }
+        .story-content p {
+            margin-bottom: 1rem;
+        }
+        .story-content .highlight {
+            color: #bcd0ff;
+            font-weight: 400;
+            background: linear-gradient(90deg, #304a7c30, transparent);
+            padding: 0.1rem 0.5rem;
+            border-radius: 20px 4px 4px 20px;
+        }
+        .story-footer {
+            margin-top: 1.8rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 1rem;
+            border-top: 1px dashed #3f4a6b;
+            padding-top: 1.2rem;
+            color: #8f9fcb;
+            font-size: 0.9rem;
+        }
+        .story-footer .badge {
+            background: #293452;
+            padding: 0.2rem 1rem;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            color: #bcd3ff;
+            border: 1px solid #3f5680;
+        }
+        @media (max-width: 480px) {
+            .story-card {
+                padding: 1.8rem 1.5rem;
+            }
+            .story-title {
+                font-size: 1.6rem;
+                flex-wrap: wrap;
+            }
+            .story-content {
+                font-size: 1rem;
+                padding-left: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="story-card">
+        <div class="game-icon">
+            <span>✦</span>
+            <span>⌘</span>
+            <span>✦</span>
+            <span>⌘</span>
+            <span>✦</span>
+        </div>
+
+        <div class="story-title">
+            <span>🌌 星语者</span>
+            <small>· 代码残片</small>
+        </div>
+
+        <div class="story-content">
+            <p>
+                最后一枚<span class="highlight">「世界核心」</span>嵌在数据之海的底层，<br>
+                名为<span class="highlight">“寂夜”</span>的故障程序不断复制，吞噬星辰。<br>
+                冒险者<span class="highlight">“露恩”</span>拆解了十二座光塔，找到被遗忘的密语——<br>
+                <strong style="color: #b3cbff;">“真正的胜利不是消灭，而是听见沉默。”</strong>
+            </p>
+            <p>
+                她放弃攻击，将核心代码转化为一首摇篮曲。<br>
+                寂夜停止了蔓延，第一次，数据海里下起了温暖的<span style="color: #8cb2ff;">像素雨</span>。<br>
+                故障程序化作无数透明光蝶，轻轻落在她的肩头。<br>
+                世界没有被重置，而是被重新 <span style="border-bottom: 1px dotted #7b9eff;">理解</span> 了。
+            </p>
+        </div>
+
+        <div class="story-footer">
+            <span class="badge">✦ 静默协议 ✦</span>
+            <span>⚡ 记忆体 #L6Su</span>
+            <span style="opacity: 0.5;">| 源点</span>
+        </div>
+    </div>
+    <!-- 故事字数严格控制在100字左右 (正文含标点 约120字, 叙述流畅) -->
+</body>
+</html>
+```
