@@ -24,12 +24,12 @@ public class ChatController {
     private ChatClient qwenClient;
 
     @GetMapping("/chat/deepseek")
-    public Flux<String> chatDeepseek(@RequestParam(name = "msg", defaultValue = "你是谁") String msg,@RequestParam(name = "userId") String userId) {
-        return deepseekClient.prompt(msg)
+    public Flux<String> chatDeepseek(@RequestParam(name = "msg", defaultValue = "你是谁") String msg,@RequestParam(value = "chatId", defaultValue = "1") String chatId) {
+        return qwenClient.prompt(msg)
                 .advisors(new Consumer<ChatClient.AdvisorSpec>() {
                     @Override
                     public void accept(ChatClient.AdvisorSpec advisorSpec) {
-                        advisorSpec.param(CONVERSATION_ID, userId);
+                        advisorSpec.param(CONVERSATION_ID, chatId);
                     }
                 }).stream().content();
     }

@@ -1062,22 +1062,22 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <collation id="287" parent="1" name="utf8mb4_zh_0900_as_cs">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="288" parent="1" name="information_schema">
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </schema>
-    <schema id="289" parent="1" name="mysql">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="290" parent="1" name="performance_schema">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="291" parent="1" name="sys">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="292" parent="1" name="Agent">
+    <schema id="288" parent="1" name="Agent">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2026-04-29.04:42:21</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-04-29.05:56:59</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="289" parent="1" name="information_schema">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="290" parent="1" name="mysql">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="291" parent="1" name="performance_schema">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="292" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="293" parent="1" name="mysql.infoschema">
@@ -1096,41 +1096,46 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <user id="297" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="298" parent="292" name="ai-agent">
-      <Comment>上下文历史消息记录表</Comment>
+    <table id="298" parent="288" name="ai_chat_memory">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="299" parent="298" name="id">
-      <Comment>主键Id</Comment>
+    <check id="299" parent="298" name="chk_message_type">
+      <Predicate>`type` in (_utf8mb4\&apos;USER\&apos;,_utf8mb4\&apos;ASSISTANT\&apos;,_utf8mb4\&apos;SYSTEM\&apos;,_utf8mb4\&apos;TOOL\&apos;)</Predicate>
+    </check>
+    <column id="300" parent="298" name="id">
+      <AutoIncrement>11</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="300" parent="298" name="contextId">
-      <Comment>上下文Id</Comment>
+    <column id="301" parent="298" name="conversation_id">
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StoredType>varchar(255)|0s</StoredType>
+      <StoredType>varchar(256)|0s</StoredType>
     </column>
-    <column id="301" parent="298" name="message">
-      <Comment>消息</Comment>
+    <column id="302" parent="298" name="content">
+      <NotNull>1</NotNull>
       <Position>3</Position>
-      <StoredType>blob|0s</StoredType>
+      <StoredType>longtext|0s</StoredType>
     </column>
-    <column id="302" parent="298" name="createTime">
-      <Comment>创建时间</Comment>
-      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    <column id="303" parent="298" name="type">
       <NotNull>1</NotNull>
       <Position>4</Position>
-      <StoredType>datetime|0s</StoredType>
+      <StoredType>varchar(100)|0s</StoredType>
     </column>
-    <index id="303" parent="298" name="PRIMARY">
+    <column id="304" parent="298" name="timestamp">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>timestamp|0s</StoredType>
+    </column>
+    <index id="305" parent="298" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="304" parent="298" name="PRIMARY">
+    <key id="306" parent="298" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

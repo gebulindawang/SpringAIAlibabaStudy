@@ -5,41 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6455281c-b788-4185-b787-98ef3f5f821f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/SAA-06PromptTemplate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-06PromptTemplate/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-06PromptTemplate/src/main/java/com/intek/Controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-06PromptTemplate/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Config/RedisMemoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fdb4632-a2cd-4ce3-a9fe-dc9374aca264.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fdb4632-a2cd-4ce3-a9fe-dc9374aca264/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fdb4632-a2cd-4ce3-a9fe-dc9374aca264/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fdb4632-a2cd-4ce3-a9fe-dc9374aca264/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fdb4632-a2cd-4ce3-a9fe-dc9374aca264/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/Controller/ChatHelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/SAA01HelloWorldApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-01HelloWorld/target/classes/com/intek/config/SaaLLMConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-05Prompt/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-05Prompt/target/classes/com/intek/Config/SaaLLMConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-05Prompt/target/classes/com/intek/Controller/PromptController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA-05Prompt/target/classes/com/intek/SAA05PromptApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/com/intek/Config/SaaLLMConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/com/intek/Controller/ChatClientController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/com/intek/Controller/ChatController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAA03-ChatModelChatClient/target/classes/com/intek/SAA03ChatModelChatClientApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/Controller/StreamOutputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSA04-StreamingOutput/src/main/java/com/intek/Controller/StreamOutputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/Config/SaaLLMConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/Controller/StreamOutputController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/com/intek/SAA04StreamingOutputApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSA04-StreamingOutput/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Config/SaaLLMConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Config/SaaLLMConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/java/com/intek/Controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/target/classes/com/intek/Config/SaaLLMConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/target/classes/com/intek/Config/SaaLLMConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/target/classes/com/intek/Controller/ChatController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/target/classes/com/intek/Controller/ChatController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAA-08Persistent/target/classes/com/intek/Controller/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SAA-08Persistent/target/classes/com/intek/Controller/ChatController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +88,7 @@
     "Spring Boot.SAA04StreamingOutput.executor": "Run",
     "Spring Boot.SAA05PromptApplication.executor": "Run",
     "Spring Boot.SAA06PromptTemplateApplication.executor": "Run",
-    "Spring Boot.SAA08PersistentApplication.executor": "Run",
+    "Spring Boot.SAA08PersistentApplication.executor": "Debug",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -120,6 +102,11 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "应用程序.SAA08PersistentApplication.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -269,7 +256,7 @@
       <workItem from="1777089408522" duration="3096000" />
       <workItem from="1777273541134" duration="14246000" />
       <workItem from="1777428371107" duration="3771000" />
-      <workItem from="1777432614412" duration="5277000" />
+      <workItem from="1777432614412" duration="8992000" />
     </task>
     <servers />
   </component>
